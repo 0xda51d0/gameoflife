@@ -1,0 +1,294 @@
+/*
+ * STYLESHEET
+ */
+#root_Splash_Screen{
+    -fx-background-color: transparent;
+    -fx-background-image: url("../img/splashscreen.png");
+}
+
+#gridPane{
+    -fx-background-color: #999999;
+    -fx-border-color: #ffffff; 
+    -fx-border-width: 0.5px;
+}
+
+#gridNextPane{
+    -fx-background-color: #999999;
+    -fx-border-color: #ffffff; 
+    -fx-border-width: 0.5px;
+}
+
+#iconImage{
+    -fx-background-image: url("../img/icon_gol_small.png");
+    -fx-background-repeat: space;
+}
+
+#rootPane{
+    -fx-background-image: url("../img/bg.png");
+    -fx-background-repeat: repeat; 
+}
+
+#checkbox_Mouse_Option{
+    -fx-font: 10px "Verdana";
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0);
+}
+
+#checkbox_Mouse_Option:hover{
+    -fx-font: 10px "Verdana";
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0);
+    -fx-background-color: transparent;
+    -fx-border-color: grey; 
+    -fx-border-width: 0.5px;
+}
+
+#checkbox_Mouse_Option:pressed{
+    -fx-font: 10px "Verdana";
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0);
+    -fx-text-fill: grey;
+    -fx-background-color: rgba(255, 255, 255, .2); 
+    -fx-border-color: grey; 
+    -fx-border-width: 0.5px;
+}
+
+/* BUTTONSTYLE BEGINNT HIER */
+
+#button_Window_Option{
+    -fx-font: 8px "Verdana";
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+
+#button_Window_Option:hover{
+    -fx-font: 8px "Verdana";
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: grey; 
+    -fx-border-width: 0.5px;
+}
+
+#button_Window_Option:pressed{
+    -fx-font: 8px "Verdana";
+    -fx-text-fill: grey;
+    -fx-background-color: rgba(255, 255, 255, .2); 
+    -fx-border-color: grey; 
+    -fx-border-width: 0.5px;
+}
+
+#button_Frame_Option{
+    -fx-font: 10px "Verdana";
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff; 
+    -fx-border-width: 0.5px;
+}
+
+#button_Frame_Option:hover{
+    -fx-font: 10px "Verdana";
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: grey; 
+    -fx-border-width: 0.5px;
+}
+
+#button_Frame_Option:pressed{
+    -fx-font: 10px "Verdana";
+    -fx-text-fill: grey;
+    -fx-background-color: rgba(255, 255, 255, .2); 
+    -fx-border-color: grey; 
+    -fx-border-width: 0.5px;
+}
+
+/* IMAGEBOXSTYLE BEGINNT HIER */
+
+#imageBox_Resize{
+    -fx-cursor: default;
+}
+
+#imageBox_Resize:hover{
+    -fx-cursor: hand;
+}
+
+#imageBox_Resize:pressed{
+    -fx-cursor:se-resize;
+}
+
+#imageBox_Moved{
+    -fx-cursor: default;
+}
+
+#imageBox_Moved:hover{
+    -fx-cursor: hand;
+}
+
+#imageBox_Moved:pressed{
+    -fx-cursor:move;
+}
+
+/* Hier beginnen die Einstellungen für die ShapeComboBox */
+
+.comboBox{
+    -fx-background-image: url("../img/bg.png");
+    
+}
+
+.comboBox .cell:hover{
+    
+}
+
+#shapeComboBox .cell
+{
+    -fx-background-image: url("../img/bg.png");
+    -fx-text-fill: white;
+}
+
+#shapeComboBox 
+{
+    -fx-font: 10px "Verdana";
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff; 
+    -fx-border-width: 0.5px;
+}
+
+#shapeComboBox:hover
+{
+   -fx-font: 10px "Verdana";
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: grey; 
+    -fx-border-width: 0.5px;
+}
+
+#shapeComboBox:pressed {
+    -fx-font: 10px "Verdana";
+    -fx-text-fill: grey;
+    -fx-background-color: rgba(255, 255, 255, .2); 
+    -fx-border-color: grey; 
+    -fx-border-width: 0.5px;
+}
+
+#shapeComboBox:disabled {
+    -fx-opacity: .4;
+}
+
+/* Hier enden die Einstellungen für die Einstellungen  für die ShapeComboBox */
+
+
+/* Hier beginnen die Styleeinstellungen für den Start und Stop Button */
+
+#stop_Button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font: 10px "Verdana";
+    -fx-font-weight: bold;
+}
+
+#stop_Button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+
+#stop_Button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#stop_Button Text {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+#start_Button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #3fa313 0%, #3e9012 100%),
+        #409d24,
+        #3ed83a,
+        radial-gradient(center 50% 50%, radius 100%, #3ed83a, #42c52c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font: 10px "Verdana";
+    -fx-font-weight: bold;
+}
+
+#start_Button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #3fa313 0%, #3e9012 100%),
+        #409d24,
+        #3ed83a,
+        radial-gradient(center 50% 50%, radius 100%, #4bea52, #42c52c);
+}
+
+#start_Button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#start_Button Text {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , #41a300 , 0,0,0,2 );
+}
+
+/* Hier enden die Styleeinstellungen für den Start und Stop Button */
+
+/* BUTTONSTYLE BEGINNT HIER */
+
+/* FONTSTYLE BEGINNT HIER */
+
+#font_Verdana_12PX_Bold_Italic{
+    -fx-font: 12px "Verdana";
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0); 
+}
+
+#font_Verdana_12PX_Italic{
+    -fx-font: 12px "Verdana";
+    -fx-font-style: italic;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0);
+}
+
+#font_Verdana_12PX{
+    -fx-font: 12px "Verdana";
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0);
+}
+
+#font_Verdana_10PX_white{
+    -fx-font: 10px "Verdana";
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0);
+}
+
+#font_Verdana_10PX_red{
+    -fx-font: 10px "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0);
+}
+
+#font_Verdana_8PX_white{
+    -fx-font: 8px "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, white, 1.2, 0, 0, 0);
+}
+
+/* FONTSTYLE ENDET HIER */
